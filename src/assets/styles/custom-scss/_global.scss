@@ -1,0 +1,33 @@
+.app-wrapper {
+    padding: 1em;
+    background: $bg-primary-color;
+    color: whitesmoke;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    i {
+        color: $font-color
+    }
+    .sidebar-wrapper {
+        background-color: transparent;
+        min-height: 100vh;
+        max-height: 100vh;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999;
+        width: 260px;
+        transition: all 0.3s;
+    }
+    .main-wrapper {
+        overflow-y: scroll;
+        min-height: 100vh;
+        max-height: 100vh;
+        position: relative;
+        flex-grow: 1;
+        margin-left: 260px;
+    }
+}

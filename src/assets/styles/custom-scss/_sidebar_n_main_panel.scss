@@ -1,0 +1,79 @@
+#sidebar {
+    background-color: black;
+    height: 100%;
+    padding: 1em;
+    .sidebar-title {
+        height: 10em;
+        border-top-left-radius: 1em;
+        padding: 2px;
+        border-left: solid 1px $active-link-color;
+        border-bottom: solid 1px $active-link-color;
+        background-color: $bg-back-color;
+        clip-path: polygon( 0% 20px, /* top left */
+        0px 0%, /* top left */
+        calc(100% - 20px) 0%, /* top right */
+        100% 20px, /* top right */
+        100% calc(100% - 20px), /* bottom right */
+        calc(100% - 0px) 100%, /* bottom right */
+        20px 100%, /* bottom left */
+        0 calc(100% - 20px)/* bottom left */
+        );
+        .title-dv {
+            background-color: $bg-secondary-color;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .sidebar-links {
+        .sidenav-dv {
+            background: $bg-back-color;
+            padding: 2px;
+            border-left: solid 1px $active-link-color;
+            border-bottom: solid 1px $active-link-color;
+            clip-path: polygon( 0% 20px, /* top left */
+            0px 0%, /* top left */
+            calc(100% - 20px) 0%, /* top right */
+            100% 20px, /* top right */
+            100% calc(100% - 20px), /* bottom right */
+            calc(100% - 0px) 100%, /* bottom right */
+            20px 100%, /* bottom left */
+            0 calc(100% - 20px)/* bottom left */
+            );
+            li {
+                height: 100%;
+                width: 100%;
+                background-color: $bg-secondary-color;
+            }
+        }
+        .sidenav-dv:hover {
+            background: $active-link-color;
+            a {
+                color: $active-link-color
+            }
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .sidebar-bottom {
+        height: 8em;
+        padding: 2px;
+        border-left: solid 1px $active-link-color;
+        border-bottom: solid 1px $active-link-color;
+        background-color: $bg-back-color;
+        clip-path: polygon( 0% 20px, /* top left */
+        0px 0%, /* top left */
+        calc(100% - 20px) 0%, /* top right */
+        100% 20px, /* top right */
+        100% calc(100% - 20px), /* bottom right */
+        calc(100% - 0px) 100%, /* bottom right */
+        20px 100%, /* bottom left */
+        0 calc(100% - 20px)/* bottom left */
+        );
+        .inner-notch {
+            background-color: $bg-secondary-color;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

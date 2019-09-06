@@ -1,0 +1,82 @@
+<div class="dashboard">
+    <div class="row">
+        <div class="col-md-3 mt-3">
+            <div class="outer-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mt-3">
+            <div class="outer-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mt-3">
+            <div class="outer-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mt-3">
+            <div class="outer-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-9 chart-dv mt-3">
+            <div class="bigger-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 stream-dv mt-3">
+            <div class="bigger-notch">
+                <div class="inner-notch">
+                    <hr class="divider mx-5">
+                    <div class="streaming-info text-center">
+                        <small *ngFor="let bin of bins; let odd = odd" class="m-2" [ngStyle]="binColor()">{{bin}}</small>
+                        <!-- <small *ngFor="let bin of bins" [ngSwitch]="color">
+                            {{bin}}
+                        <span *ngSwitchCase="color == red" [ngStyle]="binColor()">{{bin}}</span>
+                        <span *ngSwitchCase="color ==  green" [ngStyle]="binColor()">{{bin}}</span>
+                        <span *ngSwitchCase="color == yellow" [ngStyle]="binColor()">{{bin}}</span>
+                        <span *ngSwitchCase="color == white" [ngStyle]="binColor()">{{bin}}</span>
+                        <span *ngSwitchCase="color == violet" [ngStyle]="binColor()">{{bin}}</span>
+                        </small> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mt-3">
+            <div class="bigger-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="bigger-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-3">
+            <div class="bigger-notch">
+                <div class="inner-notch">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
