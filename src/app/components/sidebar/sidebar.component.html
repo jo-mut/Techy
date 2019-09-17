@@ -1,26 +1,39 @@
-<div class="sidebar" id="sidebar">
+<div class="sidebar " id="sidebar">
     <div class="sidebar-title">
-        <div class="title-dv p-3 text-center">
-            <h5>Dashboard</h5>
+        <div class="title-dv p-3 ">
+            <div class="profile-image"><img class="align-center" src="{{profileImage}}" alt=""></div>
+            <div class="name text-center">
+                <p class="my-3">John N. Doe</p>
+            </div>
         </div>
     </div>
     <div class="sidebar-links mt-5">
         <div class="main-links">
             <ul class="list-unstyled">
-                <div class="sidenav-dv m-2">
-                    <li class="p-3"><a routerLink="dashboard">Dashboard</a></li>
+                <div class="sidenav-dv my-2">
+                    <div class="nav-link p-3" routerLink="/dashboard">
+                        <p class="mb-0">Dashboard</p>
+                    </div>
                 </div>
-                <div class="sidenav-dv m-2">
-                    <li class="p-3"><a routerLink="dashboard">Workers</a></li>
+                <div class="sidenav-dv my-2">
+                    <div class="nav-link p-3" routerLink="/workers">
+                        <p class="mb-0">Workers</p>
+                    </div>
                 </div>
-                <div class="sidenav-dv m-2">
-                    <li class="p-3"><a routerLink="dashboard">Projects</a></li>
+                <div class="sidenav-dv my-2">
+                    <div class="nav-link p-3" routerLink="/projects">
+                        <p class="mb-0">Projects</p>
+                    </div>
                 </div>
-                <div class="sidenav-dv m-2">
-                    <li class="p-3"><a routerLink="dashboard">Properties</a></li>
+                <div class="sidenav-dv my-2">
+                    <div class="nav-link p-3" routerLink="/cameras">
+                        <p class="mb-0">Cameras</p>
+                    </div>
                 </div>
-                <div class="sidenav-dv m-2">
-                    <li class="p-3"><a routerLink="dashboard">Camera</a></li>
+                <div class="sidenav-dv my-2">
+                    <div class="nav-link p-3" routerLink="/activities">
+                        <p class="mb-0">Activity Log</p>
+                    </div>
                 </div>
             </ul>
         </div>

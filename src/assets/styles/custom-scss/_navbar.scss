@@ -1,19 +1,11 @@
 .navbar-notch {
-    border-top: solid 1px $active-link-color;
-    border-right: solid 1px $active-link-color;
+    border-top: solid 1px $active-color;
+    border-right: solid 1px $active-color;
     background-color: $bg-back-color;
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
     padding: 2px;
-    clip-path: polygon( 0% 20px, /* top left */
-    0px 0%, /* top left */
-    calc(100% - 20px) 0%, /* top right */
-    100% 20px, /* top right */
-    100% calc(100% - 20px), /* bottom right */
-    calc(100% - 0px) 100%, /* bottom right */
-    20px 100%, /* bottom left */
-    0 calc(100% - 0px)/* bottom left */
-    );
+    clip-path: $small-clippath;
     #navbar {
         background: $bg-secondary-color;
         .navbar-brand {
@@ -28,10 +20,10 @@
 }
 
 .navbar-notch:hover {
-    border: solid 1px $active-link-color;
-    background: $active-link-color;
+    border: solid 1px $active-color;
+    background: $active-color;
     .active-nav,
     i {
-        color: $active-link-color
+        color: $active-color
     }
 }

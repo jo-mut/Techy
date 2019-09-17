@@ -1,11 +1,10 @@
 .app-wrapper {
     padding: 1em;
     background: $bg-primary-color;
-    color: whitesmoke;
-    min-height: 100vh;
-    max-height: 100vh;
+    color: $font-color;
     display: flex;
     width: 100%;
+    min-height: 100vh;
     align-items: stretch;
     i {
         color: $font-color
@@ -19,15 +18,67 @@
         bottom: 0;
         left: 0;
         z-index: 9999;
-        width: 260px;
+        width: 300px;
         transition: all 0.3s;
     }
+    .sidebar-wrapper:hover {
+        padding: 1em;
+        #sidebar {
+            border: solid 0.05em $active-color;
+            border-radius: 1em;
+            padding: 1em;
+            .sidenav-dv:hover {
+                margin-left: 0.5em;
+                background: $active-color;
+                color: $active-color;
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
     .main-wrapper {
-        overflow-y: scroll;
-        min-height: 100vh;
-        max-height: 100vh;
         position: relative;
         flex-grow: 1;
-        margin-left: 260px;
+        margin-left: 300px;
+    }
+    .main-wrapper:hover {
+        border: solid 0.05em $active-color;
+        border-radius: 1em;
+        padding: 1em;
+        .outer-notch:hover,
+        .bigger-notch:hover {
+            border: solid 1px $active-color;
+            background: $active-color;
+            color: $active-color;
+            .inner-notch {
+                .streaming-info {
+                    border-left: solid 0.05em $active-color;
+                    color: $active-color;
+                }
+                hr {
+                    border: solid 0.05em $active-color;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    /* Reversing the behavior of the sidebar:
+    it'll be rotated vertically and off canvas by default,
+    collapsing in on toggle button click with removal of
+    the vertical rotation. */
+    .sidebar-wrapper {
+        margin-left: -260px;
+        transform: rotateY(100deg);
+    }
+    #main-wrapper {
+        margin-left: 0px;
+        // transform: rotateY(360deg);
+    }
+    #sidebar.active {
+        margin-left: 0;
+        transform: none;
     }
 }

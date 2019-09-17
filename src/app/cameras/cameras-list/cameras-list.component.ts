@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CameraService } from '../../services/camera.service';
+import { Camera } from '../../classes/camera.model';
 
 @Component({
   selector: 'app-cameras-list',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamerasListComponent implements OnInit {
 
-  constructor() { }
+  private cameras: Camera[] = [];
+
+  constructor(private cameraService: CameraService) { }
 
   ngOnInit() {
+    this.getCameras();
   }
 
+  private getCameras() {
+    this.cameraService.getCameras().subscribe( data => {
+      this.cameras = data;
+    })
+  }
 }

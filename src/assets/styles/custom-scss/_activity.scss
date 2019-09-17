@@ -1,0 +1,28 @@
+.activities {
+    .activity {
+        border: solid $border-color $border-width;
+        border-radius: 1em;
+        margin-top: 2em;
+        padding: 2em;
+        .activity-info {
+            margin-top: 1em;
+        }
+        .card {
+            border: none;
+        }
+        .activity-img-card {
+            width: 15em;
+        }
+        img {
+            width: 100em;
+        }
+    }
+    .activity:hover {
+        border: solid $active-color $border-width;
+        border-radius: 1em;
+        color: $active-color;
+        .card {
+            border: none;
+        }
+    }
+}

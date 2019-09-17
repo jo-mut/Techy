@@ -1,1 +1,8 @@
-<p>workers-list works!</p>
+<div class="workers">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <app-worker *ngFor="let worker of workers" class="col-md-3" [worker]="worker"></app-worker>
+
+        </div>
+    </div>
+</div>

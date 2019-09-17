@@ -1,1 +1,19 @@
-<p>project works!</p>
+<div class="project my-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-es-12 col-sm-12 col-md-12 col-xl-6">
+                <div class="card">
+                    <img class="img-fluid" src="{{project.image}}" alt="">
+                </div>
+            </div>
+            <div class="col-es-12 col-sm-12 col-md-12 col-xl-6">
+                <div class="project-info p-3">
+                    <h5 class="name">{{project.name}}</h5>
+                    <p class="category">{{project.category}}</p>
+                    <p class="description mb-0">{{description}}</p>
+                    <p class="deadline pull-right"><small>{{project.deadline}}</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

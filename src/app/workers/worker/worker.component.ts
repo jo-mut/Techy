@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Worker } from '../../classes/worker.model';
 
 @Component({
   selector: 'app-worker',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./worker.component.scss']
 })
 export class WorkerComponent implements OnInit {
+
+  @Input() worker: Worker;
 
   constructor() { }
 

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Camera } from '../../classes/camera.model';
 
 @Component({
   selector: 'app-camera',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./camera.component.scss']
 })
 export class CameraComponent implements OnInit {
+
+  @Input() camera: Camera;
 
   constructor() { }
 

@@ -1,0 +1,18 @@
+.camera {
+    border: solid $border-color $border-width;
+    color: $border-color;
+    .card {
+        border: none;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.camera:hover {
+    border: solid $active-color $border-width;
+    color: $active-color;
+    .card {
+        border: none;
+    }
+}

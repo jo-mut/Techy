@@ -1,18 +1,10 @@
 .dashboard {
     .outer-notch {
         height: 100%;
-        border-bottom: solid 1px $active-link-color;
+        border-bottom: solid 1px $active-color;
         background-color: $bg-back-color;
         padding: $notch-padding;
-        clip-path: polygon( 0% 20px, /* top left */
-        0px 0%, /* top left */
-        calc(100% - 20px) 0%, /* top right */
-        100% 20px, /* top right */
-        100% calc(100% - 20px), /* bottom right */
-        calc(100% - 0px) 100%, /* bottom right */
-        20px 100%, /* bottom left */
-        0 calc(100% - 20px)/* bottom left */
-        );
+        clip-path: $small-clippath;
     }
     .inner-notch {
         background-color: $bg-secondary-color;
@@ -21,29 +13,25 @@
     }
     .bigger-notch {
         height: 100%;
-        border-right: solid 1px $active-link-color;
-        border-bottom: solid 1px $active-link-color;
+        border-right: solid 1px $active-color;
+        border-bottom: solid 1px $active-color;
         background-color: $bg-back-color;
         padding: $notch-padding;
-        clip-path: polygon( 0% 40px, /* top left */
-        0px 0%, /* top left */
-        calc(100% - 40px) 0%, /* top right */
-        100% 40px, /* top right */
-        100% calc(100% - 40px), /* bottom right */
-        calc(100% - 0px) 100%, /* bottom right */
-        40px 100%, /* bottom left */
-        0 calc(100% - 40px)/* bottom left */
-        );
+        clip-path: $big-clippath;
     }
     .stream-dv {
-        height: 400px;
+        height: 200px;
         >.bigger-notch>.inner-notch {
-            padding: 2em;
+            padding-left: 2em;
+            padding-right: 2em;
+            padding-top: 1em;
             hr {
                 border: solid 0.03em $bg-back-color;
             }
             .streaming-info {
                 height: 100%;
+                overflow-x: hidden;
+                overflow-y: scroll;
                 border-left: solid 0.05em $bg-back-color;
                 color: $font-color;
                 p {
@@ -52,19 +40,12 @@
             }
         }
     }
-    .outer-notch:hover,
-    .bigger-notch:hover {
-        border: solid 1px $active-link-color;
-        background: $active-link-color;
-        color: $active-link-color;
-        .inner-notch {
-            .streaming-info {
-                border-left: solid 0.05em $active-link-color;
-                color: $active-link-color;
-            }
-            hr {
-                border: solid 0.05em $active-link-color;
-            }
+    .chart-area {
+        width: 100%;
+        height: 300px;
+        position: relative;
+        canvas {
+            display: inline;
         }
     }
 }

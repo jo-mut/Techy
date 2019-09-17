@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 
+  profileImage = 'assets/images/profile.png';
+
   constructor() { }
 
   ngOnInit() {
