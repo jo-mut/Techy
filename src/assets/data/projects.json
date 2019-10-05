@@ -1,75 +1,80 @@
 [{
         "id": "1",
         "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/pointofsale.jpg",
         "deadline": "12th, March 2020",
         "category": "Desktop App"
     },
     {
         "id": "2",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Travel Website",
+        "image": "assets/images/chess.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
+        "category": "Chess Mobile App"
     }, {
         "id": "3",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Streaming App",
+        "image": "assets/images/streaming-app.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
+        "category": "Android App"
     }, {
         "id": "4",
         "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/pointofsale.jpg",
         "deadline": "12th, March 2020",
         "category": "Desktop App"
-    }, {
+    },
+    {
         "id": "5",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Travel Website",
+        "image": "assets/images/chess.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
+        "category": "Chess Mobile App"
     }, {
         "id": "6",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Streaming App",
+        "image": "assets/images/streaming-app.jpg",
         "deadline": "12th, March 2020",
         "category": "Desktop App"
-    }, {
+    },
+    {
         "id": "7",
         "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/pointofsale.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
-    }, {
+        "category": "Android App"
+    },
+    {
         "id": "8",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Travel Website",
+        "image": "assets/images/chess.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
+        "category": "Chess Mobile App"
     }, {
         "id": "9",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Streaming App",
+        "image": "assets/images/streaming-app.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
-    }, {
+        "category": "Android App"
+    },
+    {
         "id": "10",
         "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/pointofsale.jpg",
         "deadline": "12th, March 2020",
         "category": "Desktop App"
-    }, {
+    },
+    {
         "id": "11",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Travel Website",
+        "image": "assets/images/chess.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
+        "category": "Chess Mobile App"
     }, {
         "id": "12",
-        "name": "Point of Sale",
-        "image": "assets/images/profile.png",
+        "name": "Streaming App",
+        "image": "assets/images/streaming-app.jpg",
         "deadline": "12th, March 2020",
-        "category": "Desktop App"
+        "category": "Android App"
     }
 ]

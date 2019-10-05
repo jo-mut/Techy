@@ -1,4 +1,5 @@
 # CompanyDashboard
+This is a simple Angular bootstrap 4 template for a tech company. The template employs a dark theme and font color that mirror a tech envioronment.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 

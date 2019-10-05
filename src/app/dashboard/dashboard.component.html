@@ -3,7 +3,7 @@
         <div class="bigger-notch mt-3">
             <div class="inner-notch p-5">
                 <div class="chart-area">
-                    <!-- <canvas id="chart">{{chartData()}}</canvas> -->
+                    <canvas id="chart" width="100%" height="30%">{{usersChart}}</canvas>
                 </div>
             </div>
         </div>
@@ -21,18 +21,7 @@
             <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 stream-dv mt-3">
                 <div class="bigger-notch">
                     <div class="inner-notch">
-                        <hr class="divider mx-5">
-                        <div class="streaming-info text-center">
-                            <small *ngFor="let bin of bins; let odd = odd" class="m-2" [ngStyle]="binColor()">{{bin}}</small>
-                            <!-- <small *ngFor="let bin of bins" [ngSwitch]="color">
-                                        {{bin}}
-                                    <span *ngSwitchCase="color == red" [ngStyle]="binColor()">{{bin}}</span>
-                                    <span *ngSwitchCase="color ==  green" [ngStyle]="binColor()">{{bin}}</span>
-                                    <span *ngSwitchCase="color == yellow" [ngStyle]="binColor()">{{bin}}</span>
-                                    <span *ngSwitchCase="color == white" [ngStyle]="binColor()">{{bin}}</span>
-                                    <span *ngSwitchCase="color == violet" [ngStyle]="binColor()">{{bin}}</span>
-                                    </small> -->
-                        </div>
+                        <canvas id="opertionCost" width="100%" height="30%">{{operatingCostChart}}</canvas>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,7 @@
+:root {
+    background: $bg-primary-color;
+}
+
 .app-wrapper {
     padding: 1em;
     background: $bg-primary-color;
@@ -41,25 +45,15 @@
         position: relative;
         flex-grow: 1;
         margin-left: 300px;
-    }
-    .main-wrapper:hover {
         border: solid 0.05em $active-color;
         border-radius: 1em;
         padding: 1em;
+        margin-right: 1em;
         .outer-notch:hover,
         .bigger-notch:hover {
             border: solid 1px $active-color;
             background: $active-color;
             color: $active-color;
-            .inner-notch {
-                .streaming-info {
-                    border-left: solid 0.05em $active-color;
-                    color: $active-color;
-                }
-                hr {
-                    border: solid 0.05em $active-color;
-                }
-            }
         }
     }
 }

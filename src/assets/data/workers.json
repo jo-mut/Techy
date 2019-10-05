@@ -1,7 +1,7 @@
 [{
         "id": "1",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-g.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
@@ -9,77 +9,77 @@
     {
         "id": "2",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-b.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "3",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "4",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-g1.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "5",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "6",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-b.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "7",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-g.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "8",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-b.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "9",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-g1.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "10",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "11",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-g.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
     }, {
         "id": "12",
         "name": "Bob Danson",
-        "image": "assets/images/profile.png",
+        "image": "assets/images/profile-b.jpg",
         "age": "54",
         "department": "Enviroment",
         "attendance": "Present"
